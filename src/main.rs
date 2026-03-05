@@ -50,7 +50,7 @@ pub enum Menu {
 
 #[tokio::main]
 async fn main() {
-    println!("Hello, and thank you for using this program, all credits to mangadex!");
+    println!("Hello! Thank you for using this program, all credits to mangadex!");
         //search mangas
     let title = ask_title();
     let search_manga = SearchManga::new(title);
